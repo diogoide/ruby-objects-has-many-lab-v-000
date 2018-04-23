@@ -1,3 +1,4 @@
+
 class Artist
 
   attr_accessor :name
@@ -15,5 +16,6 @@ class Artist
   def songs
     @songs
   end
+  binding.pry
 
 end
