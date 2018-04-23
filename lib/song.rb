@@ -6,7 +6,7 @@ class Song
     songs << self
   end
 
-  def artist(artist)
+  def artist
     @artist = artist
   end
 
