@@ -6,12 +6,12 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    @@song_count = []
+    @@songs = []
   end
 
   def add_song(song)
     @songs << song
-    @@song_count << song
+    @@songs << song
     song.artist = self
   end
 
@@ -22,11 +22,11 @@ class Artist
   def add_song_by_name(song_name)
     song = Song.new(song_name)
     @songs << song
-    @@song_count << song
+    @@songs << song
     song.artist = self
   end
 
   def song_count
-    @@song_count.size
+    @@songs.size 
   end
 end
