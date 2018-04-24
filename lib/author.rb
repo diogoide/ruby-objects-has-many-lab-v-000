@@ -19,6 +19,7 @@ class Author
     post = Post.new
     post.name = post_title
     post.author = self
+    @posts << post 
   end
 
 end
