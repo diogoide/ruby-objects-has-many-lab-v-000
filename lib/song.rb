@@ -11,6 +11,7 @@ class Song
       nil
     else
       self.artist.name
+    end 
   end
 
 
