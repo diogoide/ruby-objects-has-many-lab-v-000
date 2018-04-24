@@ -2,6 +2,7 @@ class Author
 
   def initialize(name)
     @name = name
-  end 
+    @posts = p[]
+  end
 
 end
